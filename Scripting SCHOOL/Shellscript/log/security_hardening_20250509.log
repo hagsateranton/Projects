@@ -1,0 +1,375 @@
+2025-05-09 07:01:31 - ===== Security Hardening Script Started =====
+2025-05-09 07:01:31 - Checking and configuring Windows Firewall...
+2025-05-09 07:01:35 - Enabled Windows Firewall for all Profiles.
+2025-05-09 07:01:36 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?vm-monitoring-dcom..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:36 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?vm-monitoring-icmp..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:36 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?vm-monitoring-icmp..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:37 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?vm-monitoring-nb-s..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:37 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?vm-monitoring-rpc", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:37 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?SNMPTRAP-In-UDP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:37 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?SNMPTRAP-In-UDP-No..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:37 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?DeliveryOptimizati..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:38 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?DeliveryOptimizati..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:38 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?EventForwarder-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:38 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?EventForwarder-RPC..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:38 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?NETDIS-UPnPHost-In..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:39 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?NETDIS-NB_Name-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:39 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?NETDIS-NB_Datagram..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:40 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?NETDIS-WSDEVNTS-In..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:40 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?NETDIS-WSDEVNT-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:40 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?NETDIS-SSDPSrv-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:40 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?NETDIS-FDPHOST-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:40 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?NETDIS-LLMNR-In-UD..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:41 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?NETDIS-FDRESPUB-WS..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:41 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?AllJoyn-Router-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:41 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?AllJoyn-Router-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:41 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?Netlogon-NamedPipe..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:41 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?Netlogon-TCP-RPC-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:42 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?Wininit-Shutdown-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:42 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?Wininit-Shutdown-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:42 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?SSTP-IN-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:42 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?FPSSMBD-iWARP-In-T..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:42 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?DIAL-Protocol-Serv..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:43 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?DIAL-Protocol-Serv..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:43 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteTask-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:43 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteTask-RPCSS-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:43 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WINRM-HTTP-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:43 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WINRM-HTTP-In-TCP-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:44 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WINRM-HTTP-Compat-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:44 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?Microsoft-Windows-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:44 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?Microsoft-Windows-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:44 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?Microsoft-Windows-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:45 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteDesktop-User..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:45 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteDesktop-User..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:45 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteDesktop-Shad..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:45 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteDesktop-In-T..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:45 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteDesktop-In-T..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:46 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-HTTPSTR-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:46 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-HTTPSTR-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:46 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-HTTPSTR-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:46 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-In-UDP-NoSc..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:46 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-In-UDP-Loca..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:46 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-In-UDP-Play..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:47 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-In-RTSP-NoS..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:47 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-In-RTSP-Loc..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:47 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-In-RTSP-Pla..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:47 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-SSDP-Discov..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:47 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-UPnP-Events..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:48 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-QWave-In-UD..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:48 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-QWave-In-TC..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:48 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RRAS-GRE-In", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:48 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RRAS-L2TP-In-UDP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:48 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RRAS-PPTP-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:48 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RVM-VDS-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:49 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RVM-VDSLDR-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:49 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RVM-RPCSS-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:49 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?FPS-NB_Session-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:49 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?FPS-SMB-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:49 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?FPS-NB_Name-In-UDP..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:50 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?FPS-NB_Datagram-In..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:51 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?FPS-SpoolSvc-In-TC..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:51 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?FPS-RPCSS-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:51 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?FPS-ICMP4-ERQ-In", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:51 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?FPS-ICMP6-ERQ-In", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:51 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?FPS-LLMNR-In-UDP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:51 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?MsiScsi-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:52 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteEventLogSvc-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:52 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteEventLogSvc-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:52 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteEventLogSvc-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:52 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?SLBM-MUX-IN-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:52 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?SPPSVC-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:52 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PerfLogsAlerts-PLA..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:53 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PerfLogsAlerts-DCO..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:53 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PerfLogsAlerts-PLA..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:53 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PerfLogsAlerts-DCO..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:53 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?TPMVSCMGR-RPCSS-In..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:53 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?TPMVSCMGR-Server-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:54 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?TPMVSCMGR-RPCSS-In..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:54 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?TPMVSCMGR-Server-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:54 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-DU-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:54 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-PTB-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:54 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-TE-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:55 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-PP-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:55 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-NDS-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:55 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-NDA-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:55 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-RA-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:55 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-RS-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:55 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-LQ-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:56 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-LR-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:56 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-LR2-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:56 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-LD-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:56 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP4-DUFR..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:56 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-IGMP-In", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:56 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-DHCP-In", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:57 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-DHCPV6-In", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:57 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-Teredo-In", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:57 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-IPHTTPS-In..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:57 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-IPv6-In", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:57 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?ComPlusNetworkAcce..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:57 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?ComPlusRemoteAdmin..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:58 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?MSDTC-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:58 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?MSDTC-KTMRM-In-TCP..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:58 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?MSDTC-RPCSS-In-TCP..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:58 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteSvcAdmin-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:58 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteSvcAdmin-NP-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:59 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteSvcAdmin-RPC..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:59 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?MDNS-In-UDP-Privat..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:59 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?MDNS-In-UDP-Domain..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:59 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?MDNS-In-UDP-Public..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:01:59 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteFwAdmin-In-T..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:00 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteFwAdmin-RPCS..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:00 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMI-RPCSS-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:00 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMI-WINMGMT-In-TCP..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:01 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMI-ASYNC-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:01 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMP-In-UDP-x86", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:01 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMP-In-UDP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:01 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-QWave-In-UD..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:01 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-QWave-In-TC..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:01 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-HTTPSTR-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:02 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-WMP-In-UDP-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:02 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-In-UDP-NoSc..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:02 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-In-TCP-NoSc..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:02 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-QWave-In-UD..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:02 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-QWave-In-TC..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:02 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-SSDPSrv-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:03 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-UPnPHost-In..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:03 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-HTTPSTR-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:03 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-WMP-In-UDP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:03 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-In-UDP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:03 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:04 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-RME-HTTP-In..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:04 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{3E4EDCE3-7137-437..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:04 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{B6D6AD28-D68E-48F..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:04 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{35629F67-97BF-415..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:04 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{333D56F5-4D2A-473..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:05 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{C4ABD5D4-E905-443..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:05 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{BD0049C0-DF8B-473..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:05 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{AD48917A-7687-4F4..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:05 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{9EDB408D-A4A4-498..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:05 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{1A84C6D6-FFCC-4D7..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:03 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{FF76BF6F-4249-434..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:03 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{6FFBDBD1-25EF-489..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:03 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{B429DB7A-30CE-417..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:03 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{05683B14-E56B-4B1..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:04 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{C139BF18-4BEB-4F9..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:04 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{655CEED0-1DB4-4F8..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:04 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{6C2E058F-9A9B-431..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:04 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{FE1C3870-3911-467..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:04 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{10CA839C-702F-47F..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:04 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{BD2F9884-C7DF-4E2..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:05 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{BF5158A4-8979-49E..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:05 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{D6B17A14-67FF-404..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:05 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{6A10C03D-E8B2-41A..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:05 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{1CAF9B8C-1608-4AD..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 07:02:06 - Error processing rule: Remote Desktop. Error Details: No MSFT_NetFirewallRule objects found with property 'DisplayName' equal to 'Remote Desktop'.  Verify the value of the property and retry.
+2025-05-09 07:02:06 - Error processing rule: HTTPS-In. Error Details: No MSFT_NetFirewallRule objects found with property 'DisplayName' equal to 'HTTPS-In'.  Verify the value of the property and retry.
+2025-05-09 07:02:06 - ===== Firewall configuration completed =====
+2025-05-09 07:02:06 - Checking Microsoft Defender status...
+2025-05-09 07:02:07 - Microsoft defender is active and real time protection is enabled.
+2025-05-09 07:02:07 - Definitions are outdated. Attempting update...
+2025-05-09 07:04:28 - Definitions updated
+2025-05-09 07:49:57 - Full Defender Scan Started.
+2025-05-09 07:49:57 - Error: approved_users.txt file not found. Proceeding without user validation.
+2025-05-09 07:50:00 - Skipping user validation as no approved users were found in txt file.
+2025-05-09 07:50:01 - Disabling Unsafe Protocols and services...
+2025-05-09 07:50:05 - SMBv1 already disabled.
+2025-05-09 07:50:05 - Checking for insecure unnecessary services...
+2025-05-09 07:50:05 - Service not found: Telnet
+2025-05-09 07:50:05 - Service not found: FTPSVC
+2025-05-09 07:50:05 - Service not found: SNMP
+2025-05-09 07:50:06 - Disabled Service RemoteRegistry
+2025-05-09 07:50:06 - Service audit cleanup completed.
+2025-05-09 07:50:06 - Checking disk space on system drive...
+2025-05-09 07:50:06 - Free space on C: is 77.37%
+2025-05-09 07:50:06 - Sufficient disk space available. No action needed.
+2025-05-09 07:50:06 - Checking BitLocker encryption status...
+2025-05-09 07:50:08 - BitLocker not enabled. Attempting encryption...
+2025-05-09 07:50:09 - ERROR: Failed to enable BitLocker - A compatible Trusted Platform Module (TPM) Security Device cannot be found on this computer. (Exception from HRESULT: 0x8028400F)
+2025-05-09 07:50:09 - Security hardening complete.
+2025-05-09 08:43:33 - ===== Security Hardening Script Started =====
+2025-05-09 08:43:33 - Checking and configuring Windows Firewall...
+2025-05-09 08:43:33 - Enabled Windows Firewall for all Profiles.
+2025-05-09 08:43:33 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?vm-monitoring-dcom..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:33 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?vm-monitoring-icmp..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:33 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?vm-monitoring-icmp..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:34 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?vm-monitoring-nb-s..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:34 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?vm-monitoring-rpc", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:34 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?SNMPTRAP-In-UDP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:34 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?SNMPTRAP-In-UDP-No..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:34 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?DeliveryOptimizati..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:35 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?DeliveryOptimizati..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:35 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?EventForwarder-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:35 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?EventForwarder-RPC..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:35 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?NETDIS-UPnPHost-In..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:35 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?NETDIS-NB_Name-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:36 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?NETDIS-NB_Datagram..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:36 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?NETDIS-WSDEVNTS-In..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:36 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?NETDIS-WSDEVNT-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:36 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?NETDIS-SSDPSrv-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:36 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?NETDIS-FDPHOST-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:37 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?NETDIS-LLMNR-In-UD..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:37 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?NETDIS-FDRESPUB-WS..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:37 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?AllJoyn-Router-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:37 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?AllJoyn-Router-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:37 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?Netlogon-NamedPipe..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:38 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?Netlogon-TCP-RPC-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:38 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?Wininit-Shutdown-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:38 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?Wininit-Shutdown-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:38 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?SSTP-IN-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:38 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?FPSSMBD-iWARP-In-T..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:39 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?DIAL-Protocol-Serv..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:39 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?DIAL-Protocol-Serv..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:39 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteTask-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:39 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteTask-RPCSS-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:39 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WINRM-HTTP-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:39 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WINRM-HTTP-In-TCP-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:40 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WINRM-HTTP-Compat-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:40 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?Microsoft-Windows-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:40 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?Microsoft-Windows-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:40 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?Microsoft-Windows-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:40 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteDesktop-User..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:41 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteDesktop-User..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:41 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteDesktop-Shad..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:41 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteDesktop-In-T..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:41 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteDesktop-In-T..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:41 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-HTTPSTR-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:42 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-HTTPSTR-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:42 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-HTTPSTR-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:42 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-In-UDP-NoSc..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:42 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-In-UDP-Loca..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:43 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-In-UDP-Play..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:43 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-In-RTSP-NoS..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:44 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-In-RTSP-Loc..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:44 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-In-RTSP-Pla..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:44 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-SSDP-Discov..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:44 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-UPnP-Events..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:44 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-QWave-In-UD..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:44 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PlayTo-QWave-In-TC..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:45 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RRAS-GRE-In", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:45 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RRAS-L2TP-In-UDP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:45 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RRAS-PPTP-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:45 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RVM-VDS-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:45 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RVM-VDSLDR-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:46 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RVM-RPCSS-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:46 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?FPS-NB_Session-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:46 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?FPS-SMB-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:46 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?FPS-NB_Name-In-UDP..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:46 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?FPS-NB_Datagram-In..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:46 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?FPS-SpoolSvc-In-TC..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:47 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?FPS-RPCSS-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:47 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?FPS-ICMP4-ERQ-In", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:47 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?FPS-ICMP6-ERQ-In", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:47 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?FPS-LLMNR-In-UDP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:47 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?MsiScsi-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:48 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteEventLogSvc-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:48 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteEventLogSvc-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:48 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteEventLogSvc-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:48 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?SLBM-MUX-IN-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:48 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?SPPSVC-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:48 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PerfLogsAlerts-PLA..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:49 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PerfLogsAlerts-DCO..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:49 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PerfLogsAlerts-PLA..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:49 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?PerfLogsAlerts-DCO..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:49 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?TPMVSCMGR-RPCSS-In..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:49 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?TPMVSCMGR-Server-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:50 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?TPMVSCMGR-RPCSS-In..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:50 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?TPMVSCMGR-Server-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:50 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-DU-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:50 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-PTB-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:50 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-TE-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:50 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-PP-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:51 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-NDS-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:51 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-NDA-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:51 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-RA-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:51 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-RS-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:51 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-LQ-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:52 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-LR-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:52 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-LR2-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:52 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP6-LD-I..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:52 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-ICMP4-DUFR..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:53 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-IGMP-In", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:53 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-DHCP-In", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:54 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-DHCPV6-In", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:54 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-Teredo-In", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:54 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-IPHTTPS-In..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:54 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?CoreNet-IPv6-In", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:54 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?ComPlusNetworkAcce..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:54 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?ComPlusRemoteAdmin..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:55 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?MSDTC-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:55 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?MSDTC-KTMRM-In-TCP..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:55 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?MSDTC-RPCSS-In-TCP..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:55 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteSvcAdmin-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:55 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteSvcAdmin-NP-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:56 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteSvcAdmin-RPC..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:56 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?MDNS-In-UDP-Privat..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:56 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?MDNS-In-UDP-Domain..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:56 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?MDNS-In-UDP-Public..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:56 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteFwAdmin-In-T..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:56 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?RemoteFwAdmin-RPCS..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:57 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMI-RPCSS-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:57 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMI-WINMGMT-In-TCP..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:57 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMI-ASYNC-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:57 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMP-In-UDP-x86", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:57 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMP-In-UDP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:57 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-QWave-In-UD..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:58 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-QWave-In-TC..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:58 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-HTTPSTR-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:58 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-WMP-In-UDP-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:58 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-In-UDP-NoSc..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:58 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-In-TCP-NoSc..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:59 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-QWave-In-UD..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:59 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-QWave-In-TC..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:59 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-SSDPSrv-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:59 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-UPnPHost-In..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:59 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-HTTPSTR-In-..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:43:59 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-WMP-In-UDP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:00 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-In-UDP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:00 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-In-TCP", PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:00 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?WMPNSS-RME-HTTP-In..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:00 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{3E4EDCE3-7137-437..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:00 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{B6D6AD28-D68E-48F..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:01 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{35629F67-97BF-415..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:01 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{333D56F5-4D2A-473..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:01 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{C4ABD5D4-E905-443..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:01 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{BD0049C0-DF8B-473..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:01 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{AD48917A-7687-4F4..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:02 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{9EDB408D-A4A4-498..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:02 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{1A84C6D6-FFCC-4D7..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:02 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{FF76BF6F-4249-434..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:03 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{6FFBDBD1-25EF-489..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:03 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{B429DB7A-30CE-417..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:03 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{05683B14-E56B-4B1..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:03 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{C139BF18-4BEB-4F9..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:04 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{655CEED0-1DB4-4F8..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:04 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{6C2E058F-9A9B-431..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:04 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{FE1C3870-3911-467..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:04 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{10CA839C-702F-47F..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:04 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{BD2F9884-C7DF-4E2..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:05 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{BF5158A4-8979-49E..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:05 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{D6B17A14-67FF-404..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:05 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{6A10C03D-E8B2-41A..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:05 - Disabling-NetfirewallRule -Name MSFT_NetFirewallRule (CreationClassName = "MSFT?FW?FirewallRule?{1CAF9B8C-1608-4AD..., PolicyRuleName = "", SystemCreationClassName = "", SystemName = "").Name
+2025-05-09 08:44:05 - Error processing rule: Remote Desktop. Error Details: No MSFT_NetFirewallRule objects found with property 'DisplayName' equal to 'Remote Desktop'.  Verify the value of the property and retry.
+2025-05-09 08:44:06 - Error processing rule: HTTP-In. Error Details: No MSFT_NetFirewallRule objects found with property 'DisplayName' equal to 'HTTP-In'.  Verify the value of the property and retry.
+2025-05-09 08:44:06 - ===== Firewall configuration completed =====
+2025-05-09 08:44:06 - Checking Microsoft Defender status...
+2025-05-09 08:44:06 - Microsoft defender is active and real time protection is enabled.
+2025-05-09 08:44:06 - Definitions are up to date
+2025-05-09 09:09:18 - Full Defender Scan Started.
+2025-05-09 09:09:18 - Error: approved_users.txt file not found. Proceeding without user validation.
+2025-05-09 09:09:18 - Skipping user validation as no approved users were found in txt file.
+2025-05-09 09:09:18 - Disabling Unsafe Protocols and services...
+2025-05-09 09:09:19 - SMBv1 already disabled.
+2025-05-09 09:09:19 - Checking for insecure unnecessary services...
+2025-05-09 09:09:19 - Service not found: Telnet
+2025-05-09 09:09:19 - Service not found: FTPSVC
+2025-05-09 09:09:19 - Service not found: SNMP
+2025-05-09 09:09:19 - Disabled Service RemoteRegistry
+2025-05-09 09:09:19 - Service audit cleanup completed.
+2025-05-09 09:09:19 - Checking disk space on system drive...
+2025-05-09 09:09:19 - Free space on C: is 77.36%
+2025-05-09 09:09:19 - Sufficient disk space available. No action needed.
+2025-05-09 09:09:19 - Checking BitLocker encryption status...
+2025-05-09 09:09:20 - BitLocker not enabled. Attempting encryption...
+2025-05-09 09:09:20 - ERROR: Failed to enable BitLocker - A compatible Trusted Platform Module (TPM) Security Device cannot be found on this computer. (Exception from HRESULT: 0x8028400F)
+2025-05-09 09:09:20 - Security hardening complete.

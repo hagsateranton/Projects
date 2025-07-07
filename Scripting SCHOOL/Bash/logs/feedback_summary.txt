@@ -1,0 +1,4 @@
+Körningssammanfattning för Wed May  7 04:02:34 PM UTC 2025:
+Totalt blockerade IP-adresser: 0
+Rapport skapad: security_report_20250507.txt
+Arkivering klar i: /backup/logs
